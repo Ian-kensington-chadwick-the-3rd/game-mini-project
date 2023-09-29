@@ -1,6 +1,6 @@
 .div{
     padding: 30px;;
-    background-color: black;
+    background-color: rgb(189, 177, 177);
     font-size: 40px;
     display: flex;
     justify-content: center;
@@ -8,7 +8,7 @@
 .div1{
     padding: 30px;
     height: 400px;
-    background-color: black;
+    background-color: rgb(233, 161, 161);
     display: flex;
     justify-content: center;
 }
