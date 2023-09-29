@@ -7,8 +7,24 @@
 }
 .div1{
     padding: 30px;
+    height: 400px;
     background-color: black;
+    display: flex;
+    justify-content: center;
 }
+.p{
+    color: aliceblue;
+    position: relative;
+    align-items: center
+}
+
+
+
+
 .header{
     background-color: aquamarine;
+    height: 200px;
+   position: relative;
+    text-align: center;
+    font-size: 40px;
 }
