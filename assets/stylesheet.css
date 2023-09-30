@@ -12,10 +12,12 @@
     display: flex;
     justify-content: center;
 }
-.p{
-    color: aliceblue;
+
+section{
+    color: rgb(237, 0, 0);
     position: relative;
-    align-items: center
+    text-align: center;
+    font-size: 30px;
 }
 
 

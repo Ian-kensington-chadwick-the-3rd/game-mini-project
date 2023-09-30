@@ -1,25 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="assets/stylesheet.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <header class="header">
-    <h1>Guess the word game!</h1>
+        <h1>Guess the word game!</h1>
+        <h4>Correct Guesses: <span id="trackW">0</span></h4>
+        <h4>Incorrect Guesses: <span id="trackL">0</span></h4>
+        <button id="loses">Lose</button>
+        <button id="wins">Win</button>
     </header>
+    <section>
+        <textarea class="text">_ _ _ _ _</textarea>
+    </section>
     <div class="div1">
-          <h2 id="countdown"></h2>
-          <p id="main"></p>
-         <p class="p">-----------------------------------------------------</p>
-        </div>
-    
-    <div class="div">
-    <button id="btn">  start  </button>
+        <h2 id="countdown"></h2>
+        <p id="main"></p>
+
     </div>
-    
+
+    <div class="div">
+        <button id="btn"> start </button>
+    </div>
+
     <script src="assets/script.js"></script>
 </body>
+
 </html>
